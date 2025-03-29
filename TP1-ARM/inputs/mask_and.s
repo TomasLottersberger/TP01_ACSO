@@ -1,0 +1,3 @@
+MOV X7, #0b1010
+MOV X8, #0b1100
+AND X6, X7, X8

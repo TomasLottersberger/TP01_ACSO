@@ -1,0 +1,2 @@
+MOV X20, #0
+CBZ X20, label2

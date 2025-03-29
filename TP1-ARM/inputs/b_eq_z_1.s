@@ -1,0 +1,3 @@
+MOV X19, #20
+CMP X19, #20
+B.EQ label1

@@ -34,13 +34,9 @@ uint32_t negate_number(uint32_t number){
     }
     
     number = ~number;
-    
     number = number << 32 - position;
     number = number >> 32 - position;
-    
     return number;
-    
-    
 }
 
 void adds_extended_register(uint32_t instruction) {

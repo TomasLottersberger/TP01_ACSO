@@ -36,6 +36,4 @@ int64_t sign_extend(uint32_t number, int bits);
 uint32_t get_bits(uint32_t number, int start, int end);
 uint32_t negate_number(uint32_t number);
 
-extern int is_branch_taken;
-
 #endif
